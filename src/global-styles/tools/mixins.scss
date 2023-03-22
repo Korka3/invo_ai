@@ -1,0 +1,11 @@
+@mixin tablet {
+  @media (min-width: var(--bp-tablet)) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: var(--bp-desktop)) {
+    @content;
+  }
+}

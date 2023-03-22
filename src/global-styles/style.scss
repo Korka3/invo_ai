@@ -1,0 +1,22 @@
+/// Main Styles File
+/// Here we import all the global Styles files we need for our project.
+
+// base
+@import "styles/normalize.scss";
+@import "styles/root.scss";
+@import "styles/fonts.scss";
+// mixins
+@import "tools/mixins.scss";
+// layout
+@import "styles/layout/container.scss";
+@import "styles/layout/column.scss";
+@import "styles/layout/row.scss";
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-primary);
+}
+
+p {
+  color: var(--color-on-surface);
+}

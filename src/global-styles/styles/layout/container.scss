@@ -1,0 +1,17 @@
+.l-container {
+  margin-left: calc(var(--grid-base) * 1.6);
+  margin-right: calc(var(--grid-base) * 1.6);
+  max-width: 100%;
+
+  @include tablet {
+    margin-left: calc(var(--grid-base) * 16.9);
+    margin-right: calc(var(--grid-base) * 16.9);
+    max-width: 496px;
+  }
+
+  @include desktop {
+    margin-left: calc(var(--grid-base) * 15.2);
+    margin-right: calc(var(--grid-base) * 15.2);
+    max-width: 1136px;
+  }
+}
