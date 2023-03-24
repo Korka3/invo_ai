@@ -1,11 +1,13 @@
 .l-container {
   margin-left: calc(var(--grid-base) * 1.6);
   margin-right: calc(var(--grid-base) * 1.6);
+  flex-direction: column;
   max-width: 100%;
 
   @include tablet {
     margin-left: calc(var(--grid-base) * 16.9);
     margin-right: calc(var(--grid-base) * 16.9);
+    flex-direction: row;
     max-width: 496px;
   }
 
