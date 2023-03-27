@@ -1,0 +1,18 @@
+.u-flex-dir-col {
+  flex-direction: column;
+
+  &--tb-row {
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+  &--dt-row {
+    @include desktop {
+      flex-direction: row;
+    }
+  }
+}
+
+.u-flex-dir-row {
+  flex-direction: row;
+}

@@ -1,7 +1,6 @@
 .l-container {
   margin-left: calc(var(--grid-base) * 1.6);
   margin-right: calc(var(--grid-base) * 1.6);
-  flex-direction: column;
   max-width: 100%;
 
   @include tablet {

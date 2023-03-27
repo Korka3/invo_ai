@@ -1,13 +1,14 @@
 .l-col {
   width: 100%;
+  //padding: calc(var(--grid-base) * 2);
 
-  &--dt50 {
+  &--tb50 {
     @include desktop {
       flex: 0 0 50%;
       max-width: 50%;
     }
   }
-  &--tb50 {
+  &--dt50 {
     @include tablet {
       flex: 0 0 50%;
       max-width: 50%;

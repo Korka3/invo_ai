@@ -1,4 +1,8 @@
 .hp-areas {
   background-color: var(--color-primary);
   color: var(--color-secondary);
+
+  // @include tablet {
+  //   background-color: green;
+  // }
 }

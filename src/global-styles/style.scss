@@ -1,12 +1,11 @@
 /// Main Styles File
 /// Here we import all the global Styles files we need for our project.
 
-@import "styles/mixins.scss";
-
 // base
 @import "styles/normalize.scss";
 @import "styles/root.scss";
 @import "styles/fonts.scss";
+@import "styles/mixins.scss";
 
 // layout
 @import "styles/layout/container.scss";
@@ -14,6 +13,8 @@
 @import "styles/layout/row.scss";
 
 @import "styles/headdings.scss";
+
+@import "styles/utilities/flex_box.scss";
 
 body {
   font-family: "DM sans", sans-serif;
