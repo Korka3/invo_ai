@@ -1,11 +1,13 @@
 /// Main Styles File
 /// Here we import all the global Styles files we need for our project.
 
+@import "styles/variables.scss";
+@import "styles/mixins.scss";
+
 // base
 @import "styles/normalize.scss";
 @import "styles/root.scss";
 @import "styles/fonts.scss";
-@import "styles/mixins.scss";
 
 // layout
 @import "styles/layout/container.scss";
@@ -13,14 +15,22 @@
 @import "styles/layout/row.scss";
 
 @import "styles/headdings.scss";
-
+//utilites
 @import "styles/utilities/flex_box.scss";
+@import "styles/utilities/text.scss";
+
+html {
+  height: 100%;
+}
 
 body {
   font-family: "DM sans", sans-serif;
-  color: var(--color-primary);
+  background-color: var(--color-primary);
+  height: 100%;
 }
 
 p {
   color: var(--color-secondary);
+  line-height: var(--lh-24);
+  font-weight: 400;
 }

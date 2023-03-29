@@ -4,6 +4,7 @@
 
 :root {
   //colors
+
   --color-primary: #0f162d;
   --color-primary-1: #ca59ff;
   --color-primary-2: #607cff;
@@ -12,9 +13,7 @@
   --color-secondary: #ffffff;
   --color-secondary-1: #000000;
   --color-secondary-2: #272d42;
-  // // breakpoints
-  // --bp-tablet: 496px;
-  // --bp-desktop: 1136px;
+
   // grid
   --grid-base: 10px;
   //letter spacing
@@ -29,10 +28,14 @@
   --font-size-3: 20px;
   --font-size-4: 16px;
   --font-size-5: 14px;
+  //line-height
+  --lh-56: 56px;
+  --lh-40: 40px;
+  --lh-24: 24px; //p
+  --lh-22: 22px; //p
+  --lh-20: 20px;
+
   //border-radius
   --rounding-1: 16px;
   --rounding-2: 24px;
 }
-
-$bp-tablet: 496px;
-$bp-desktop: 1136px;

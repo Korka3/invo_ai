@@ -1,8 +1,51 @@
 .hp-areas {
-  background-color: var(--color-primary);
+  min-height: 100%;
   color: var(--color-secondary);
+  justify-content: center;
+  display: flex;
+  align-items: center;
 
-  // @include tablet {
-  //   background-color: green;
-  // }
+  &__container {
+    padding: 16px;
+
+    @include desktop {
+      padding: 0;
+      min-width: 1136px;
+    }
+  }
+
+  &__box {
+    background-color: var(--color-secondary-2);
+    text-align: center;
+    padding: calc(var(--grid-base) * 2);
+    border-radius: var(--rounding-1);
+    //margin: calc(var(--grid-base) * 0.8) calc(var(--grid-base) * 1.6);
+    margin-bottom: 16px;
+
+    @include tablet {
+      padding-right: calc(var(--grid-base) * 1.7);
+      padding-left: calc(var(--grid-base) * 1.4);
+      border-radius: var(--rounding-2);
+      margin: calc(var(--grid-base) * 0.8);
+    }
+
+    @include desktop {
+      padding: calc(var(--grid-base) * 2.4) calc(var(--grid-base) * 1.6);
+    }
+  }
+
+  &__header {
+    padding-left: calc(var(--grid-base) * 0.8);
+    padding-right: calc(var(--grid-base) * 0.8);
+
+    @include tablet {
+      padding-left: var(--grid-base);
+      padding-right: var(--grid-base);
+    }
+
+    @include desktop {
+      margin-right: calc(var(--grid-base) * 10.6);
+      padding: 0;
+    }
+  }
 }

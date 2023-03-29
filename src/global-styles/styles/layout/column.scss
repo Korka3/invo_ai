@@ -2,6 +2,10 @@
   width: 100%;
   //padding: calc(var(--grid-base) * 2);
 
+  //   &--no-padding {
+  //     padding: 0;
+  //   }
+
   &--tb50 {
     @include desktop {
       flex: 0 0 50%;
@@ -9,7 +13,7 @@
     }
   }
   &--dt50 {
-    @include tablet {
+    @include desktop {
       flex: 0 0 50%;
       max-width: 50%;
     }

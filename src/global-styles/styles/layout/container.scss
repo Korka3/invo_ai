@@ -1,18 +1,18 @@
 .l-container {
-  margin-left: calc(var(--grid-base) * 1.6);
-  margin-right: calc(var(--grid-base) * 1.6);
+  //margin-left: auto;
+  //margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  //padding-left: calc(var(--grid-base) * 1.6);
+  //padding-right: calc(var(--grid-base) * 1.6);
   max-width: 100%;
 
   @include tablet {
-    margin-left: calc(var(--grid-base) * 16.9);
-    margin-right: calc(var(--grid-base) * 16.9);
-    flex-direction: row;
-    max-width: 496px;
+    max-width: 490px;
   }
 
   @include desktop {
-    margin-left: calc(var(--grid-base) * 15.2);
-    margin-right: calc(var(--grid-base) * 15.2);
-    max-width: 1136px;
+    max-width: 1040px;
   }
 }
