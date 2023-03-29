@@ -19,4 +19,12 @@
   @include desktop {
     margin-bottom: calc(var(--grid-base) * 2.4);
   }
+
+  &--level2 {
+    font-size: var(--font-size-3);
+    line-height: var(--lh-24);
+    margin-top: calc(var(--grid-base) * 1.6);
+    margin-bottom: calc(var(--grid-base) * 1.6);
+    text-transform: capitalize;
+  }
 }
