@@ -34,3 +34,9 @@ p {
   line-height: var(--lh-24);
   font-weight: 400;
 }
+
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}

@@ -19,8 +19,14 @@
     text-align: center;
     padding: calc(var(--grid-base) * 2);
     border-radius: var(--rounding-1);
-    //margin: calc(var(--grid-base) * 0.8) calc(var(--grid-base) * 1.6);
     margin-bottom: 16px;
+
+    &:hover {
+      &:hover {
+        background-color: #464d66;
+        transition-duration: 0.6s;
+      }
+    }
 
     @include tablet {
       padding-right: calc(var(--grid-base) * 1.7);
@@ -49,7 +55,7 @@
     }
   }
 
-  &_icon {
+  &__icon {
     min-height: 56px;
     min-width: 56px;
 
@@ -59,7 +65,7 @@
     }
   }
 
-  p {
+  &__text {
     opacity: 50%;
   }
 }
