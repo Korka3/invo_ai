@@ -15,12 +15,4 @@
       align-items: stretch;
     }
   }
-
-  &-dt {
-    @include desktop {
-      display: flex;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  }
 }

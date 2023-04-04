@@ -22,10 +22,8 @@
     margin-bottom: 16px;
 
     &:hover {
-      &:hover {
-        background-color: #464d66;
-        transition-duration: 0.6s;
-      }
+      background-color: #464d66;
+      transition-duration: 0.6s;
     }
 
     @include tablet {
@@ -67,5 +65,6 @@
 
   &__text {
     opacity: 50%;
+    margin-bottom: 0;
   }
 }
